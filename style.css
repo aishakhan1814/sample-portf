@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding:0;
+}
+.intro{
+    background-image: url("portfolio-img.jpg");
+    background-size: cover;
+    height:600px;
+    width: 100%;
+    background-color: orange;  
+    display:flex;
+    flex-direction: column;
+}
+.intro-sl h1{
+    text-align: center;
+    font-weight:500;
+    color:black;
+}
+
+.fs h1{
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: 900;
+    margin-top: 140px;
+    color:black;
+    font-size: 4rem;
+}
+
+
+
+.work-title h1{
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-align: center;
+    padding:30px 20px;
+}
+i{
+    color:chartreuse;
+    font-size: larger;
+}
+.containers{
+    
+    margin-top:50px;
+    margin-bottom:50px;
+
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+.web-dev,.app-dev,.ui-ux{
+    height:500px;
+    width:350px;
+    background-color: #FFF5E1;
+    padding:30px;
+    border-radius:10px;
+    border:2px solid black;
+    box-shadow: 3px 3px 5px #444;
+}
+
+    img {
+        width: 100%;
+        max-width: 400px;
+        height: 250px;
+        border-radius: 10px;
+        overflow: hidden;  /* Keeps the image proportional & fills the box */
+        padding-bottom: 10px;
+    }
+    .footer{
+        background-color: cadetblue;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .contact,.about{
+        height:300px;
+        width:100%;
+        padding:40px 30px 40px 50px;
+        color:white;
+        border:2px solid black;
+    box-shadow: 3px 3px 5px #444;
+    }
+    .contact{
+        background-color: #FF6B35;
+    }
+    .about{
+        background-color:#004E64 ;
+    }
+    .ll{
+        background-color: #444;
+        color:aliceblue;
+        text-align: center;
+        height:50px;
+        padding-top:20px;
+    }
+    .footer h3{
+        font-weight: 800;
+    }
+    
